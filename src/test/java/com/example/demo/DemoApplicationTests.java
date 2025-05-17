@@ -13,7 +13,7 @@ class DemoApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(DemoApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	contextLoads() {
 		logger.info("Test Case Exceuting....");
 		logger.info("Test Case Excuting second log statement....");
 		assertEquals(true,true);
