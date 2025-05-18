@@ -15,7 +15,7 @@ class DemoApplicationTests {
 	@Test
 	 void contextLoads() {
 		logger.info("Test Case Exceuting....");
-		logger.info("Test Case Excuting second log statement....");
+	
 		assertEquals(true,true);
 	}
 
